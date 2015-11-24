@@ -15,6 +15,7 @@
 		D452A9B51C0431BB005F55DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D452A9B31C0431BB005F55DC /* LaunchScreen.storyboard */; };
 		D452A9C01C0431BB005F55DC /* AudioTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D452A9BF1C0431BB005F55DC /* AudioTestTests.m */; };
 		D452A9CB1C0431BB005F55DC /* AudioTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D452A9CA1C0431BB005F55DC /* AudioTestUITests.m */; };
+		D452A9EA1C046C2F005F55DC /* Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D452A9E91C046C2F005F55DC /* Recorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D452A9C61C0431BB005F55DC /* AudioTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D452A9CA1C0431BB005F55DC /* AudioTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioTestUITests.m; sourceTree = "<group>"; };
 		D452A9CC1C0431BB005F55DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D452A9D81C0431F7005F55DC /* Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recorder.h; sourceTree = "<group>"; };
+		D452A9E91C046C2F005F55DC /* Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				D452A9AB1C0431BB005F55DC /* ViewController.h */,
 				D452A9AC1C0431BB005F55DC /* ViewController.m */,
 				D452A9AE1C0431BB005F55DC /* Main.storyboard */,
+				D452A9D81C0431F7005F55DC /* Recorder.h */,
+				D452A9E91C046C2F005F55DC /* Recorder.m */,
 				D452A9B11C0431BB005F55DC /* Assets.xcassets */,
 				D452A9B31C0431BB005F55DC /* LaunchScreen.storyboard */,
 				D452A9B61C0431BB005F55DC /* Info.plist */,
@@ -276,6 +281,7 @@
 				D452A9AD1C0431BB005F55DC /* ViewController.m in Sources */,
 				D452A9AA1C0431BB005F55DC /* AppDelegate.m in Sources */,
 				D452A9A71C0431BB005F55DC /* main.m in Sources */,
+				D452A9EA1C046C2F005F55DC /* Recorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
