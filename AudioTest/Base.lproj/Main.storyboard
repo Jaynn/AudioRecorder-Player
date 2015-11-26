@@ -16,8 +16,72 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhe-Gt-b7g">
+                                <rect key="frame" x="276" y="88" width="49" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Record"/>
+                                <connections>
+                                    <action selector="recordOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eVh-Ht-Hs0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SlX-Gw-Vh0">
+                                <rect key="frame" x="284" y="126" width="32" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="stopOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9K3-AD-EaE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zd-ie-7Fe">
+                                <rect key="frame" x="269" y="170" width="62" height="30"/>
+                                <animations/>
+                                <state key="normal" title="playback"/>
+                                <connections>
+                                    <action selector="playbackOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h5C-dP-mIc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPH-e1-1xT">
+                                <rect key="frame" x="258" y="308" width="86" height="30"/>
+                                <animations/>
+                                <state key="normal" title="FilePlayback"/>
+                                <connections>
+                                    <action selector="FilePlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ndE-f1-R45"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkP-Z8-EmR">
+                                <rect key="frame" x="264" y="215" width="73" height="30"/>
+                                <animations/>
+                                <state key="normal" title="FileRecord"/>
+                                <connections>
+                                    <action selector="FileRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Usm-dD-smY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmk-LA-cic">
+                                <rect key="frame" x="248" y="263" width="105" height="30"/>
+                                <animations/>
+                                <state key="normal" title="FileRecordStop"/>
+                                <connections>
+                                    <action selector="FIleRecordStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y5S-1B-MN2"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SlX-Gw-Vh0" firstAttribute="centerX" secondItem="7zd-ie-7Fe" secondAttribute="centerX" id="3VW-yn-aB0"/>
+                            <constraint firstItem="SlX-Gw-Vh0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9BZ-Ku-zGl"/>
+                            <constraint firstItem="SlX-Gw-Vh0" firstAttribute="top" secondItem="bhe-Gt-b7g" secondAttribute="bottom" constant="8" symbolic="YES" id="9SM-5q-zYV"/>
+                            <constraint firstItem="xmk-LA-cic" firstAttribute="centerX" secondItem="fPH-e1-1xT" secondAttribute="centerX" id="Fig-x1-aaF"/>
+                            <constraint firstItem="xmk-LA-cic" firstAttribute="top" secondItem="pkP-Z8-EmR" secondAttribute="bottom" constant="18" id="Syt-Vl-YSP"/>
+                            <constraint firstItem="fPH-e1-1xT" firstAttribute="top" secondItem="xmk-LA-cic" secondAttribute="bottom" constant="15" id="UHh-KH-vWC"/>
+                            <constraint firstItem="xmk-LA-cic" firstAttribute="centerX" secondItem="pkP-Z8-EmR" secondAttribute="centerX" id="cn4-mV-c5G"/>
+                            <constraint firstItem="pkP-Z8-EmR" firstAttribute="centerX" secondItem="7zd-ie-7Fe" secondAttribute="centerX" id="grf-QH-qD8"/>
+                            <constraint firstItem="7zd-ie-7Fe" firstAttribute="top" secondItem="SlX-Gw-Vh0" secondAttribute="bottom" constant="14" id="rkJ-tE-3cp"/>
+                            <constraint firstItem="pkP-Z8-EmR" firstAttribute="top" secondItem="7zd-ie-7Fe" secondAttribute="bottom" constant="15" id="uSl-f0-hSX"/>
+                            <constraint firstItem="SlX-Gw-Vh0" firstAttribute="centerX" secondItem="bhe-Gt-b7g" secondAttribute="centerX" id="wg0-eX-8kU"/>
+                            <constraint firstItem="bhe-Gt-b7g" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="68" id="xxs-Lq-hie"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

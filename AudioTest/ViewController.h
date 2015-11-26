@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "Recorder.h"
+#import "Player.h"
+@interface ViewController : UIViewController{
+    Recorder *recorder;
+    Player *player;
+    BOOL flag;
+}
 
 
 @end

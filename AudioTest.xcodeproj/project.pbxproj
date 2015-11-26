@@ -16,6 +16,9 @@
 		D452A9C01C0431BB005F55DC /* AudioTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D452A9BF1C0431BB005F55DC /* AudioTestTests.m */; };
 		D452A9CB1C0431BB005F55DC /* AudioTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D452A9CA1C0431BB005F55DC /* AudioTestUITests.m */; };
 		D452A9EA1C046C2F005F55DC /* Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D452A9E91C046C2F005F55DC /* Recorder.m */; };
+		D4D133A01C069C0000360023 /* FilePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D1339F1C069C0000360023 /* FilePlayer.m */; };
+		D4E80EB81C05422E003354D2 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E80EB71C05422E003354D2 /* Player.m */; };
+		D4E80EC71C05A404003354D2 /* FileRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E80EC61C05A404003354D2 /* FileRecorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		D452A9CC1C0431BB005F55DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D452A9D81C0431F7005F55DC /* Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recorder.h; sourceTree = "<group>"; };
 		D452A9E91C046C2F005F55DC /* Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recorder.m; sourceTree = "<group>"; };
+		D4D1339E1C069C0000360023 /* FilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePlayer.h; sourceTree = "<group>"; };
+		D4D1339F1C069C0000360023 /* FilePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilePlayer.m; sourceTree = "<group>"; };
+		D4E80EB61C05422E003354D2 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D4E80EB71C05422E003354D2 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		D4E80EC51C05A404003354D2 /* FileRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileRecorder.h; sourceTree = "<group>"; };
+		D4E80EC61C05A404003354D2 /* FileRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileRecorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +120,12 @@
 				D452A9AE1C0431BB005F55DC /* Main.storyboard */,
 				D452A9D81C0431F7005F55DC /* Recorder.h */,
 				D452A9E91C046C2F005F55DC /* Recorder.m */,
+				D4D1339E1C069C0000360023 /* FilePlayer.h */,
+				D4D1339F1C069C0000360023 /* FilePlayer.m */,
+				D4E80EC51C05A404003354D2 /* FileRecorder.h */,
+				D4E80EC61C05A404003354D2 /* FileRecorder.m */,
+				D4E80EB61C05422E003354D2 /* Player.h */,
+				D4E80EB71C05422E003354D2 /* Player.m */,
 				D452A9B11C0431BB005F55DC /* Assets.xcassets */,
 				D452A9B31C0431BB005F55DC /* LaunchScreen.storyboard */,
 				D452A9B61C0431BB005F55DC /* Info.plist */,
@@ -281,7 +296,10 @@
 				D452A9AD1C0431BB005F55DC /* ViewController.m in Sources */,
 				D452A9AA1C0431BB005F55DC /* AppDelegate.m in Sources */,
 				D452A9A71C0431BB005F55DC /* main.m in Sources */,
+				D4E80EC71C05A404003354D2 /* FileRecorder.m in Sources */,
 				D452A9EA1C046C2F005F55DC /* Recorder.m in Sources */,
+				D4E80EB81C05422E003354D2 /* Player.m in Sources */,
+				D4D133A01C069C0000360023 /* FilePlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +523,7 @@
 				D452A9D11C0431BB005F55DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D452A9D21C0431BB005F55DC /* Build configuration list for PBXNativeTarget "AudioTestTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +532,7 @@
 				D452A9D41C0431BB005F55DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D452A9D51C0431BB005F55DC /* Build configuration list for PBXNativeTarget "AudioTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +541,7 @@
 				D452A9D71C0431BB005F55DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

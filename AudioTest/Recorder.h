@@ -22,7 +22,7 @@ typedef struct AQRecorderState{
 
 @interface Recorder : NSObject
 {
-    AQRS                audioQueueRecorederState;
+    AQRS                aqrs;
     AudioFileTypeID     fileFormat;
     SInt32              audioDataLength;
     Byte                audioByte[999999];
@@ -34,4 +34,5 @@ typedef struct AQRecorderState{
 - (void) start;
 - (void) stop;
 - (void) pause;
+- (Byte *) getBytes;
 @end
